@@ -1,0 +1,17 @@
+.main-bg{
+  height: 700px;
+  /* background-image: url(./img/girlsofthemonth-20250716-172650-014.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+
+.start{
+  opacity: 0.35;
+  /* transform: scale(0); */
+}
+.end{
+  opacity: 1;
+  transition: opacity 0.5s;
+  /* transform: scale(1);
+  transition: all 0.5s; */
+}
