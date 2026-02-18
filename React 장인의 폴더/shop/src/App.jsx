@@ -64,7 +64,7 @@ function App() {
 
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand onClick={()=>{navigate('/')}}>준영이최고</Navbar.Brand>
           <Nav className="me-auto">
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Nav.Link onClick={()=>{navigate('/')}}>홈</Nav.Link>
