@@ -2,13 +2,15 @@ import { useState } from 'react'
 import './App.css'
 import guzig from './img/guzig.png'
 function App() {
-  const [count, setCount] = useState(0)
+  let [guzigiter, guzigiterCount] = useState([1,1,1,1,1,1,1,1,1,1,1])
 
   return (
     <>
-      <img src={guzig} width="100%" onClick={()=>{
-        window.open("https://github.com/sungjoonyoung")
-      }}></img>
+      {guzigiter.map((n)=>{return(
+          <img src={guzig} width="100%" onClick={()=>{
+          window.open("https://github.com/sungjoonyoung")
+        }}></img>
+      )})}
     </>
   )
 }
