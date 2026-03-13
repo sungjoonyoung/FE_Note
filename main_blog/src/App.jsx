@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       {guzigiter.map((n)=>{return(
-          <img src={guzig} width="100%" onClick={()=>{
+          <img src={guzig} className='guzig' onClick={()=>{
           window.open("https://github.com/sungjoonyoung")
         }}></img>
       )})}
